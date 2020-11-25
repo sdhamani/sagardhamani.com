@@ -73,17 +73,17 @@
 
     <h2>Nav</h2>
 
-    <nav>
-        <div>Navigation</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation">
+        <div class="nav-brand">Navigation</div>
+        <ul class="list-no-bullets nav-pills">
+            <li class="list-item-inline">
+                <a class:"link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="">Projects</a>
+            <li class="list-item-inline">
+                <a class:"link"  href="">Projects</a>
             </li>
-            <li>
-                <a href="/">Blogs</a>
+            <li class="list-item-inline">
+                <a class:"link" href="/">Blogs</a>
             </li>
         </ul>
     </nav>
@@ -92,40 +92,44 @@
 
     <h2>Header</h2>
 
-    <header>
-        <img src="images/development.svg">
-        <h1>Image 1</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/development.svg">
+        <h1 class="hero-header">Sagar Dhamani <span class="heading-inverted">  - The Developer</span></h1>
     </header>
 
     <hr>
 
     <h2>@section</h2>
 
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>This will have white background</p>
+        </div>
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>This will have gray background</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>This will have gray background</p>
+        </div>
     </section>
 
     <hr>
 
     <h2>@footer</h2>
 
-    <footer>
-        <div> Some small heading footer</div>
-        <ul>
-            <li>
-                Linkein
+    <footer class="footer">
+        <div class="footer-header"> Some small heading footer</div>
+        <ul class="social-links list-no-bullets">
+            <li class="list-item-inline">
+                <a class="link" href="/">Linkedin</a> 
             </li>
-            <li>
-                Twitter
+            <li class="list-item-inline">
+                <a class="link"  href="/">Twitter</a>                
             </li>
-            <li>
-                Git Hub 
+            <li class="list-item-inline">
+                <a class="link" href="/">Git Hub</a>                
             </li>
         </ul>
     </footer>

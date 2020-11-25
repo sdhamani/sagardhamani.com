@@ -3,10 +3,13 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 :root{
     --primary-color: #7c3AED;
+    --dark-gray: #687280;
+    --off-white: #F3F4F6;
 }
 hr{
    margin: 2rem 0rem;
@@ -49,3 +52,81 @@ hr{
     display: inline;
     padding: 0rem 1rem;
 }
+
+.navigation{
+    background-color:var(--primary-color);
+    color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: d;
+
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link-active{
+    font-weight: d;
+}
+
+/** header **/
+
+hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-header{
+    text-align: center;
+    color: var(--dark-gray);
+    padding-top: 1rem;
+
+}
+
+.hero .hero-header .heading-inverted{
+    color: var(--primary-color);
+}
+
+/** section **/
+
+.section h1{
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/** footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+
+.footer .ul{
+    padding-inline-start: 0px;
+}
+
