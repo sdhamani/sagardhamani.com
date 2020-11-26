@@ -20,6 +20,7 @@ hr{
 .margin-md {
     margin: 2rem;
 }
+
 /** container **/
 .container{
     padding-left : 1rem;
@@ -44,14 +45,14 @@ hr{
     background-color: var(--primary-color);
     border-radius: 2rem;
     align-self: start;
-    color: var(--off-white)
+    color: var(--off-white);
 }
 
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid;
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 /**list **/
@@ -120,23 +121,36 @@ hr{
 
 }
 
+.zero-padding{
+    padding-top:0rem
+}
+
 .hero .hero-header .heading-inverted{
     color: var(--primary-color);
 }
 
 /** section **/
-section{
+.section{
     padding: 2rem;
     margin: auto;
     text-align: center;
+    max-width: 90%;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+
 }
+
+.projects {
+    background-color: var(--off-white);
+}
+
+
 .section h1{
     text-align: center;
 }
 
 .ow{
-    background-color: var(--off-white);
-    
+    background-color: var(--off-white)
 }
 
 /** footer **/
