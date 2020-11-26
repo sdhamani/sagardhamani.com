@@ -63,7 +63,7 @@ hr{
 
 .list-item-inline{
     display: inline;
-    padding: 0rem 1rem;
+    padding: 0rem 1 rem;
     
 }
 
@@ -72,9 +72,8 @@ hr{
     color:var(--dark-gray);
     text-align: center;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
-    
-    
+    /* border-bottom-left-radius: 1rem; */
+    border-bottom-right-radius: 1rem;
 }
 
 .navigation .nav-brand{
@@ -121,9 +120,7 @@ hr{
 
 }
 
-.zero-padding{
-    padding-top:0rem
-}
+
 
 .hero .hero-header .heading-inverted{
     color: var(--primary-color);
@@ -136,8 +133,7 @@ hr{
     text-align: center;
     max-width: 90%;
     border-radius: 1rem;
-    margin-bottom: 3rem;
-
+    margin-bottom: 2rem;
 }
 
 .projects {
@@ -160,11 +156,13 @@ hr{
     padding: 2rem 1rem;
     text-align: center;
     color:var(--off-white);
-    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
+
 
 .footer .link{
     color:var(--off-white);
+
 }
 
 .footer .footer-header{
@@ -172,7 +170,12 @@ hr{
     font-size: large;
 }
 
+
+.right-padding{
+    padding-right: 2rem;
+
+}
 .footer .ul{
-    padding-inline-start: 0px;
+    padding-inline-start: 50px
 }
 
