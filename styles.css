@@ -7,9 +7,9 @@ body{
 }
 
 :root{
-    --primary-color: #7c3AED;
+    --primary-color: #374151 ;
     --dark-gray: #687280;
-    --off-white: #F3F4F6;
+    --off-white: #E5E7EB;
 }
 hr{
    margin: 2rem 0rem;
@@ -34,19 +34,24 @@ hr{
 .link {
     text-decoration: none ;
     padding: 0.5rem 1rem;
+}
 
+.link-active {
+    font-weight: bold;
 }
 
 .link-primary{
     background-color: var(--primary-color);
-    border-radius: 0.3rem;
-    color: white
+    border-radius: 2rem;
+    align-self: start;
+    color: var(--off-white)
 }
 
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color)
+    border: 1px solid;
+    color: var(--primary-color)
 }
 
 /**list **/
@@ -58,23 +63,29 @@ hr{
 .list-item-inline{
     display: inline;
     padding: 0rem 1rem;
+    
 }
 
 .navigation{
     background-color:var(--primary-color);
-    color:white;
+    color:var(--dark-gray);
     text-align: center;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    
+    
 }
 
 .navigation .nav-brand{
     font-weight: d;
-
+    text-align: center;
+    color: var(--off-white);
+    padding-top: 1rem;
+    
 }
 
 .navigation .link {
-    color: white;
+    color: var(--off-white);
 }
 
 .navigation .nav-pills{
@@ -89,19 +100,23 @@ hr{
 
 .hero{
     padding: 2rem;
-    padding-top: 5rem;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .hero .hero-img{
     max-width: 350px;
     display: block;
     margin: auto;
+    padding-bottom: 3rem;
 }
 
 .hero .hero-header{
     text-align: center;
-    color: var(--dark-gray);
-    padding-top: 1rem;
+    color: var(--primary-color) ;
+    padding-top: 2rem;
+    text-emphasis: size;;
 
 }
 
@@ -112,14 +127,16 @@ hr{
 /** section **/
 section{
     padding: 2rem;
+    margin: auto;
+    text-align: center;
 }
 .section h1{
     text-align: center;
-    padding: 2rem;
 }
 
 .ow{
     background-color: var(--off-white);
+    
 }
 
 /** footer **/
@@ -128,12 +145,12 @@ section{
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
-    color:white;
+    color:var(--off-white);
     border-top-right-radius: 1rem;
 }
 
 .footer .link{
-    color: white;
+    color:var(--off-white);
 }
 
 .footer .footer-header{
