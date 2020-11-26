@@ -179,3 +179,30 @@ hr{
     padding-inline-start: 50px
 }
 
+.blog-headers{
+    margin-left: 10rem;
+    text-align:left;
+}
+
+.blog-images{
+    max-width: 600px;
+    max-height: 500rem;
+    padding: 0rem 3rem;
+}
+
+.blog-main-image{
+    max-width: 600px;
+    max-height: 500rem;
+    display: block;
+    margin: auto;
+}
+
+.blog-padding{
+    padding-left: 3em;
+}
+
+.blog-end{
+    padding-left: 29rem;
+    color: var(--primary-color)
+}
+
