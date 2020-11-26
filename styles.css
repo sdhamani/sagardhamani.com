@@ -138,6 +138,7 @@ hr{
 
 .projects {
     background-color: var(--off-white);
+    background-size: auto;
 }
 
 .projects-padding{
