@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+tent @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 
 * {
@@ -31,7 +31,7 @@ hr{
 }
 
 .container-center{
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
 }
 @media (max-width: 800px) {
@@ -165,7 +165,7 @@ hr{
 }
 
 .projects-padding{
-    padding-bottom: 1rem;
+    padding-bottom: 1%;
 }
 
 
