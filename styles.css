@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 
+* {
+    box-sizing: border-box;
+
+}
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
@@ -23,18 +27,33 @@ hr{
 
 /** container **/
 .container{
-    padding-left : 1rem;
-    padding-right : 1rem;
+    padding:auto
 }
 
 .container-center{
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
 }
+@media (max-width: 800px) {
+.flex-container {
+    display: flex;
+    /* flex-direction: row; */
+  }
+}
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+
+
 
 .link {
     text-decoration: none ;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
 }
 
 .link-active {
@@ -44,9 +63,12 @@ hr{
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 2rem;
-    align-self: start;
+    /* align-self: start; */
     color: var(--off-white);
+    margin-top: 2%;
 }
+
+
 
 .link-secondary{
     color: var(--primary-color);
@@ -133,12 +155,13 @@ hr{
     text-align: center;
     max-width: 80%;
     border-radius: 1rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    margin-bottom: 1.5%;
 }
 
 .projects {
     background-color: var(--off-white);
-    background-size: auto;
+    /* background-size: auto; */
 }
 
 .projects-padding{
