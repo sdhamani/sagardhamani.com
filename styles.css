@@ -208,14 +208,14 @@ hr{
 }
 
 .blog-headers{
-    margin-left: 10rem;
+    margin-left: 10%;
     text-align:left;
 }
 
 .blog-images{
     max-width: 600px;
     max-height: 500rem;
-    padding: 0rem 3rem;
+    padding: 0rem 3% ;
 }
 
 .blog-main-image{
@@ -230,7 +230,7 @@ hr{
 }
 
 .blog-end{
-    padding-left: 29rem;
+    padding-left: 29%;
     color: var(--primary-color)
 }
 
