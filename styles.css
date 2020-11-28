@@ -159,6 +159,16 @@ hr{
     margin-bottom: 1.5%;
 }
 
+.section-projects{
+    padding: 3rem;
+    margin: 3rem;
+    text-align: center;
+    max-width: 80%;
+    border-radius: 1rem;
+    /* margin-bottom: 2rem; */
+    margin-bottom: 5%;
+}
+
 .projects {
     background-color: var(--off-white);
     /* background-size: auto; */
@@ -226,7 +236,7 @@ hr{
 }
 
 .blog-padding{
-    padding-left: 3em;
+    padding-left: 3%;
 }
 
 .blog-end{
