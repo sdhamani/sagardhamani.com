@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+    <title>DOM</title>
+    <link href="/styles.css" rel='stylesheet'/>
+</head>
+<body>
+    <nav class="navigation">
+        <h1 class="nav-brand">HTML DOM</span></h1>
+        <ul class="list-no-bullets nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+               <a class="link  link-active" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h3 class="hero-header"><strong>DOM - </strong>Document Object Model</h3>
+    </header>
+    
+   
+
+
+    <section class="blog-headers">
+
+        <ul>
+            <li><h1>What is the DOM?</h1></li>
+        </ul>
+ 
+        <div class="blog-padding">
+            <p>At the most basic level, a website consists of an HTML and CSS document. 
+                The browser creates a representation of the document known as Document Object Model (DOM). 
+                This document enables Javascript to access and manipulate the elements and styles of a website. 
+                The model is built in a tree structure of objectsThe DOM Document is the owner of all other objects in your webpage.
+                That means if you want to access any object on your webpage you always have to start with the document. 
+                It also contains many important properties and methods that enable us to access and modify our website.
+
+                Finding HTML Elements </p>
+
+            <div >
+                <img  class="hero hero-img blog-main-image" src="/images/dom_basic.gif">
+            </div>
+        </div>
+
+        <hr> 
+
+        <ul>
+            <li><h1>DOM Document</h1></li>
+        </ul>
+
+        <div class="blog-padding">
+
+            <p>The DOM Document is the owner of all other objects in your webpage. 
+                That means if you want to access any object on your webpage you always have to start with the document. 
+                It also contains many important properties and methods that enable us to access and modify our website.</p>
+
+        </div>
+
+        <hr>
+            
+        <ul>
+            <li><h1>Finding HTML Elements</h1></li>
+        </ul>
+
+        <div class="blog-padding">
+
+            <p>Now that we understand what the DOM document is we can start getting our first HTML elements. 
+                There are many different ways to do so using the Javascript DOM here are the most common:</p>
+
+                <h3>1. Get element by ID</h3>
+
+                <div class="blog-padding">
+
+                    <p>The getElementById() method is used to get a single element by its id.</p>
+        
+                    <div>
+                        <img  class="blog-images" src="/images/dom_getid.JPG">
+                    </div>
+                </div>
+
+
+                <h3>2. Get elements by class name</h3>
+
+
+                <div class="blog-padding">
+
+                    <p>We can also get more than one object using the getElementsByClassName() method which returns an array of elements.
+                        Here we get all items with the class name and save them into a variable
+                    </p>
+        
+                    <div>
+                        <img  class="blog-images" src="/images/dom_getclass1.JPG">
+                    </div>
+                </div>
+
+                <h3>3. Get element by tag name</h3>
+                <div class="blog-padding">
+
+        
+                    <p>We can also get our elements by tag name using the getElementsByTagName() method.
+                        Here we get all li elements of our HTML document and save them into a variable.
+                    </p>
+        
+                    <div>
+                        <img  class="blog-images" src="/images/dom_tag.JPG">
+                    </div>
+                </div>
+        </div>
+ 
+
+        <hr>
+
+        <ul>
+            <li><h1>Queryselector</h1></li>
+        </ul>
+
+        <div class="blog-padding">
+            <p>The querySelector() method returns the first element that matches a specified CSS selector. 
+                That means that you can get elements by id, class, tag and all other valid CSS selectors. </p>
+
+            <h3>1. Get by id</h3>
+            <div class="blog-padding">
+        
+                    <div>
+                        <img  class="blog-images" src="/images/dom_qsheader.JPG">
+                    </div>
+            </div>
+
+            <h3>2. Get by class</h3>
+            <div class="blog-padding">
+        
+                    <div>
+                        <img  class="blog-images" src="/images/dom_qslist.JPG">
+                    </div>
+            </div>
+
+            <h3>3. Get by tag</h3>
+            <div class="blog-padding">
+        
+                    <div>
+                        <img  class="blog-images" src="/images/dom_qsh1.JPG">
+                    </div>
+            </div>
+        
+            <h3>4. Get more specific elements:</h3>
+            <div class="blog-padding">
+        
+                    <div>
+                        <img  class="blog-images" src="/images/dom_qsh1heading.JPG">
+                    </div>
+            </div>
+
+            <h3>5. Get all elements that fit criteria:</h3>
+            <div class="blog-padding">
+                <p>The querySelectorAll() method is completely the same as the querySelector() except 
+                    that it returns all elements that fit the CSS Selector.
+                </p>
+    
+                <div>
+                    <img  class="blog-images" src="/images/dom_qsallh1.JPG">
+                </div>
+    
+    
+                <p>In this example, we get all h1 tags that have a class of heading and store them in an array.</p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <ul>
+            <li><h1>Changing HTML Elements</h1></li>
+        </ul>
+
+        <div class="blog-padding">
+
+            <p>The HTML DOM allows us to change the content and style of an HTML element by changing its properties.
+            </p>
+            <h3>1. Changing the Content</h3>
+            <div class="blog-padding">
+                <p>The innerHTML property can be used to change the content of an HTML element
+                </p>
+    
+                <div>
+                    <img  class="blog-images" src="/images/dom_innerelement.JPG">
+                </div>
+            </div>
+            <h3>2. Changing the Style</h3>
+            <div class="blog-padding">
+                <p>The innerHTML property can be used to change the content of an HTML element
+                </p>
+    
+                <div>
+                    <img  class="blog-images" src="/images/dom_style.JPG">
+                </div>
+            </div>
+        </div>
+
+        <p>There is so much to learn about DOM but with this blog you can get a start and then try to learn others feaitures by doing</p>
+
+        <h1 class="blog-end">Thank You !!!!</h1>
+
+    </section>
+
+
+<footer class="footer">
+    <div class="footer-header">GET IN TOUCH</div>
+    <ul class="list-no-bullets right-padding">
+        <li class="list-item-inline"">
+            <a class="link " href="https://www.linkedin.com/in/sagar-dhamani-a8b066114/">LinkedIn</a> 
+        </li>
+        <li class="list-item-inline">
+            <a class="link"  href="https://twitter.com/SagarDhamani1">Twitter</a>                
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="https://github.com/sdhamani">Git Hub</a>                
+        </li>
+    </ul>
+
+    
+</body>
+</html>
+
+

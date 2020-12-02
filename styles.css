@@ -218,11 +218,21 @@ hr{
 }
 
 .blog-headers{
-    margin-left: 10%;
+
+    text-align:left;
+    margin-left: 3%;
     text-align:left;
 }
 
 .blog-images{
+    max-width: 600px;
+    max-height: 500rem;
+    padding: 0rem 3% ;
+}
+
+
+.blog-main-image{
+    image-rendering: auto;
     max-width: 600px;
     max-height: 500rem;
     padding: 0rem 3% ;
@@ -240,7 +250,7 @@ hr{
 }
 
 .blog-end{
-    padding-left: 29%;
+    text-align: center;
     color: var(--primary-color)
 }
 
