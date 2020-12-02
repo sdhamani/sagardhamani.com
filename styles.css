@@ -233,9 +233,9 @@ hr{
 
 .blog-main-image{
     image-rendering: auto;
-    max-width: 600px;
+    /* max-width: 600px;
     max-height: 500rem;
-    padding: 0rem 3% ;
+    padding: 0rem 3% ; */
 }
 
 .blog-main-image{
