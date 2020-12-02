@@ -258,3 +258,6 @@ hr{
     color: var(--primary-color)
 }
 
+.context-padding{
+    padding: 0rem 2rem;
+}
