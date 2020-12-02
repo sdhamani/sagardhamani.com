@@ -246,6 +246,7 @@ hr{
     max-height: 500rem;
     display: block;
     margin: auto;
+    padding-left: 0rem;
 }
 
 .blog-padding{
