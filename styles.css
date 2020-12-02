@@ -232,7 +232,10 @@ hr{
 
 
 .blog-main-image{
-    image-rendering: auto;
+    /* image-rendering: auto; */
+    width: 100%;
+    height: auto;
+    max-width: 400px;
     /* max-width: 600px;
     max-height: 500rem;
     padding: 0rem 3% ; */
