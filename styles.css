@@ -104,7 +104,7 @@ hr{
     font-weight: d;
     text-align: center;
     color: var(--off-white);
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     
 }
 
