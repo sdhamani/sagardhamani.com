@@ -102,7 +102,7 @@ hr{
 
 .navigation .nav-brand{
     font-size: xx-large;
-    font-weight: d;
+    font-weight: bold;
     text-align: center;
     color: var(--off-white);
     /* padding-top: 1rem; */
@@ -125,7 +125,7 @@ hr{
 
 .hero{
     padding: 2rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
     text-align: center;
     font-size: 2rem;
 }
@@ -141,8 +141,6 @@ hr{
     text-align: center;
     color: var(--primary-color) ;
     padding-top: 2rem;
-    text-emphasis: size;;
-
 }
 
 
