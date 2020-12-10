@@ -72,9 +72,10 @@ hr{
 
 .link-secondary{
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     border: 1px solid;
     color: var(--primary-color);
+    margin-top: 2%;
 }
 
 /**list **/
